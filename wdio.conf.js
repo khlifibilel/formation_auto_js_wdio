@@ -22,7 +22,8 @@ exports.config = {
     //
     specs: [
        // './test/specs/**/scroll_toview.js',
-        './test/specs/**/alert.js'
+        //'./test/specs/**/alert.js'
+        './specs/*.js'
     ],
     // Patterns to exclude.
     exclude: [
