@@ -1,5 +1,5 @@
 describe('Page d \'acceuil IN command in webdriverio', () => {
-
+ 
     it('Parcours bouton carrousel 7 (Impot.gouv ) ',async ()=> {
         // Variable 
            //et btn_enedis = await $("(//div[@data-index='7']//img [@class='card-img-top'])")   // bouton 2 de la carrousel 
