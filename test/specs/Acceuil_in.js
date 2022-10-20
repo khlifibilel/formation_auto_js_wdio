@@ -1,5 +1,7 @@
 describe('Page d \'acceuil IN command in webdriverio', () => {
 
+    
+
     it('Parcours bouton carrousel 1 (ANTS ) ',async ()=> {
         // Variable 
            let btn_agence_national = await $("(//div[@data-index='0']//img [@class='card-img-top'])")   // bouton 2 de la carrousel 
@@ -46,10 +48,6 @@ describe('Page d \'acceuil IN command in webdriverio', () => {
         
     //console.log("le titre de la page " +browser.getTitle())   
     })
-
-
-
-
 
     it('Parcours bouton carrousel 7 (Impot.gouv ) ',async ()=> {
         // Variable 
